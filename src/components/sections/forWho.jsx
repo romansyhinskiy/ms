@@ -5,7 +5,7 @@ import whoSecond from '../../assets/img/whoSecond.JPG'
 const ForWho = () => {
     return (
         <div className='p-[20px] md:p-[100px]'>
-            <h3 className='font-ua_bold text-3xl md:text-5xl text-custom_grey'>Для кого?</h3>
+            <h3 className='font-ua_bold text-3xl md:text-5xl text-custom_grey'>Для <span className='text-custom_orange'>кого?</span></h3>
             <div className='block md:flex mt-[20px] md:mt-[50px]'>
                 <div>
                     <img src={whoFirst} className="w-[300px] h-[225px] my-0 mx-auto" alt="whoFirst" />
